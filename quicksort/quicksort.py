@@ -1,4 +1,4 @@
-def quicksort(array: list, lower: int, upper: int) -> list:
+def quicksort(array: list, lower: int, upper: int) -> None:
     """
     Recursive implementation of a Hoare partition scheme quicksort,
     with 'median of three' selection for the pivot.
